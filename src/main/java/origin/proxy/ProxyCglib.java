@@ -41,7 +41,7 @@ public class ProxyCglib implements MethodInterceptor{
             }
         }
         if(needProxy) {
-            System.out.println("proxy -> 安排采访");
+            System.out.println("proxy -> 安排");
         }
         return method.invoke(player, objects);
     }

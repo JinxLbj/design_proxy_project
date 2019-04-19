@@ -19,7 +19,7 @@ public class PlayerProxy implements PlayerInterface {
 
     public void interview() {
 
-        System.out.println("proxy -> 安排采访");
+        System.out.println("proxy -> 安排");
 
         player.interview();
 
@@ -33,6 +33,7 @@ public class PlayerProxy implements PlayerInterface {
     public static void main(String[] args) {
         PlayerProxy playerProxy = new PlayerProxy(new Player());
         playerProxy.interview();
+        playerProxy.playBall();
     }
 
 }
