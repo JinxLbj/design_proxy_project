@@ -46,7 +46,7 @@ public class ProxyCglib implements MethodInterceptor{
         return method.invoke(player, objects);
     }
 
-    public static void main(String[] args) throws NoSuchMethodException {
+    public static void main(String[] args) {
         ProxyCglib proxyFactory = new ProxyCglib(new PlayerNoInterface());
         PlayerNoInterface playerNoInterface = proxyFactory.getProxyInstance();
         playerNoInterface.interview();

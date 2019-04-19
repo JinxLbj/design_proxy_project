@@ -8,7 +8,6 @@ package origin.proxy;
 
 import origin.Player;
 import origin.PlayerInterface;
-import origin.PlayerNoInterface;
 import origin.annotation.WithoutProxy;
 
 import java.lang.annotation.Annotation;
