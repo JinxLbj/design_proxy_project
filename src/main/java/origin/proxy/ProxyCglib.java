@@ -1,7 +1,7 @@
 /**
  * createby : JinxLbj
  * date : 2019/4/19
- * desc : 构建代理工厂
+ * desc : Cglib构建代理工厂
  **/
 
 package origin.proxy;
@@ -9,15 +9,11 @@ package origin.proxy;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-import origin.Player;
-import origin.PlayerInterface;
 import origin.PlayerNoInterface;
 import origin.annotation.WithoutProxy;
 
 import java.lang.annotation.Annotation;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 
 public class ProxyCglib implements MethodInterceptor{
 

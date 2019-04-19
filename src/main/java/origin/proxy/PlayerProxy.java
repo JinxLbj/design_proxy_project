@@ -1,7 +1,7 @@
 /**
  * createby : JinxLbj
  * date : 2019/4/19
- * desc :
+ * desc : 球员代理类
  **/
 
 package origin.proxy;

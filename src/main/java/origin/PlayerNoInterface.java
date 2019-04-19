@@ -1,7 +1,7 @@
 /**
  * createby : JinxLbj
  * date : 2019/4/19
- * desc : 球员类
+ * desc : 球员类（无需接口）
  **/
 
 package origin;
